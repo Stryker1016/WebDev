@@ -1,0 +1,19 @@
+/*Adjacent Sibling*/
+h2 + p{
+    color: red;
+}
+/*All Siblings*/
+h1 ~ p{
+    color: red;
+}
+
+/*Child Combinator*/
+section > p{
+    color: silver;
+    font-weight: bold;
+}
+
+/*Descendant Combinator*/
+section p{
+    color: blue;
+}
